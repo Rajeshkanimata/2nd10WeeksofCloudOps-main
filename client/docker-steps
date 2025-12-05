@@ -9,4 +9,4 @@ docker login
 username 
 password
 docker tag image usename/image
-docker push
+ docker push username/image
