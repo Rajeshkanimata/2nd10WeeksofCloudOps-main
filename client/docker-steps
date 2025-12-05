@@ -2,3 +2,11 @@
  #create two instances install docker and git an dclone repo
   in dockerfile check the port and build a image in client  (docker build -t booksft .)
   docker run -d -f  80:80 booksft
+
+
+after finishing ti upload inti docker hub 
+docker login 
+username 
+password
+docker tag image usename/image
+docker push
